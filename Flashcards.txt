@@ -1,0 +1,6 @@
+Is a cat a dog?
+No
+Cats and dogs are different
+Is a dog a cat?
+No
+Dogs and cats are different

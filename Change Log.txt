@@ -1,0 +1,9 @@
+.LOG
+6:58 AM 1/11/2023
+- Created Flashcards.txt file. Will probably turn it into a .json if I decide to make things more advance.
+- Added user input validation and error handling.
+- Right now there are two options - view flashcards and test yourself against them.
+Future:
+- Will add ability to create more flashcards from within the program. Will likely add ways to modify/delete entries as well.
+- Want to create user interface, likely using PyGame, for the user.
+- Want to make 'memorable randomness'. To me, this will allow the user to random choose flashcards, but the program will 'remember' which cards were recent and which cards haven't been studied in a while, making them less or more likely, respectively. 
