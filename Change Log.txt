@@ -7,3 +7,12 @@ Future:
 - Will add ability to create more flashcards from within the program. Will likely add ways to modify/delete entries as well.
 - Want to create user interface, likely using PyGame, for the user.
 - Want to make 'memorable randomness'. To me, this will allow the user to random choose flashcards, but the program will 'remember' which cards were recent and which cards haven't been studied in a while, making them less or more likely, respectively. 
+
+1:00 AM 1/18/2023
+- Created option to add flashcards with your own question, answer, and notes.
+- Changed Flashcards.txt file (which held the flashcards) to .json (i.e. an actual database).
+- Creates a backup of Flashcards.json at the start of the program
+- Added error handling to writing to Flashcards.json, so it will restore to the last backup if it doesn't write properly
+- Modified the randomness of card testing. Instead of doing the python random of 0-n, the program creates a new list that increase the 'chance' of less-reviewed cards by adding more of them. For isntance, if card 5 hasn't been studied in a long time nor very often, it appears 5 times instead of 1 in the list.
+- Added a few questions, but they were mostly for testing purposes. 
+- Other very minor changes/imrpovements, such as pausing at each flashcard when choosing the option to review them instead of printing out all of them at once.

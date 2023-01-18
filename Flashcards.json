@@ -1,0 +1,52 @@
+{
+    "Flashcards": [
+        {
+            "ID": 1,
+            "Question": "What is malware?",
+            "Answer": "Malicious code.",
+            "Notes": "Some malware can run filelessly from memory.",
+            "Date": 30,
+            "Frequency": 0
+        },
+        {
+            "ID": 2,
+            "Question": "What is a Trojan horse?",
+            "Answer": "Malware that is hidden on an innocent-looking application.",
+            "Notes": "RATs are Remote Access Trojans",
+            "Date": 30,
+            "Frequency": 0
+        },
+        {
+            "ID": 3,
+            "Question": "The organization that Chris works for has disabled automatic updates. What is the most common reason for disabling automatic updates for organizational systems?",
+            "Answer": "To avoid issues with problematic patches and updates.",
+            "Notes": "Since updates for businesses are typically sent to large numbers of devices at a time, if an update did not work properly with current software, it could cause problems for all the updated devices on the network.",
+            "Date": 30,
+            "Frequency": 0
+        },
+        {
+            "ID": 4,
+            "Question": "Which if the following is not a capability provided by S/MIME when it is used to protect attachments for email : authentication, non-repudiation of the sender, message integrity, or data security for email headers?",
+            "Answer": "Data security for the email headers.",
+            "Notes": "S/MIME is used to protect attachments but does not protect the headers of an email. It also provide authentication, nonrepudiation, and message integrity.",
+            "Date": 30,
+            "Frequency": 0
+        },
+        {
+            "ID": 5,
+            "Question": "What wireless technology is most frequently used for wireless payment solutions?",
+            "Answer": "Near-field communications, or NFC.",
+            "Notes": "NFC provides a very short-range, low-bandwidth wireless connection, which is well suited to payment systems",
+            "Date": 30,
+            "Frequency": 0
+        },
+        {
+            "ID": 6,
+            "Question": "Please these in the order of least to most volatile: system routing table, logs, temporary files, CPU registers.",
+            "Answer": "Logs < temporary files < system's routing table < CPU registers",
+            "Notes": "Remember, the more volatile somethign is, the less \"permanent\" and more susceptible to change/being erased it is.",
+            "Date": 30,
+            "Frequency": 0
+        }
+    ]
+}
